@@ -3,15 +3,13 @@ var React = require('react');
 var Link = require('react-router').Link;
 
 var Header = React.createClass({
-  render() {
+  render: function() {
     return (
-      <div className='nav'>
-        <ul>
-          <li><Link to="dashboard">Dashboard</Link></li>
-          <li><Link to="about">About</Link></li>
-        </ul>
-      </div>
-    )
+      <header className="bar bar-nav">
+        <a href="#" className={"icon icon-left-nav pull-left" + (this.props.back==="true"?"":" hidden")}></a>
+        <h1 className="title">{this.props.text}</h1>
+      </header>
+    );
   }
 });
 

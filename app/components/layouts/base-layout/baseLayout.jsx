@@ -7,12 +7,10 @@ var Footer = require('../../footer/footer');
 var BaseLayout = React.createClass({
   render() {
     return (
-      <div className="base-layout">
-       <Header/>
-        <div className="base-content">
-          <RouteHandler/>
-        </div>
-        <Footer/>
+      <div>
+       <Header text="Performers"/>
+       <RouteHandler/>
+     {/*<Footer/>*/}
       </div>
     )
   }

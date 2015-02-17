@@ -22,7 +22,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loaders: ['react-hot', 'jsx?harmony'], exclude: /node_modules/ },
-      { test: /\.jsx$/, loaders: ['react-hot', 'jsx?harmony'] },
+      { test: /\.jsx$/, loaders: ['react-hot', 'jsx?harmony'], exclude: /node_modules/ },
       { test: /\.css$/, loader: 'style-loader!css-loader' , exclude: /node_modules/},
       { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=1000' }
 

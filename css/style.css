@@ -1,154 +1,34 @@
-* {
-  margin: 0;
-  padding: 0; }
+.content > .table-view:first-child {
+    margin-top: -2px;
+}
 
-html, body {
-  height: 100%; }
+.hidden {
+    opacity: 0;
+}
 
-body {
-  background: white; }
+.media-object.big {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
 
-
-.dashboard {
-  padding: 50px; }
-  .dashboard .input {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 1.2rem;
-    position: relative;
-    color: rgba(0, 0, 0, 0.8); }
-    .dashboard .input input {
-      margin: 0;
-      width: 100%;
-      outline: 0;
-      text-align: left;
-      line-height: 1.2142em;
-      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-      padding: 1.5em 1em;
-      background: #fff;
-      border: 1px solid rgba(0, 0, 0, 0.15);
-      color: rgba(0, 0, 0, 0.8);
-      border-radius: .2857rem;
-      -webkit-transition: background-color .2s ease, box-shadow .2s ease, border-color .2s ease;
-              transition: background-color .2s ease, box-shadow .2s ease, border-color .2s ease;
-      box-shadow: none; }
-      .dashboard .input input:focus {
-        border-color: rgba(39, 41, 43, 0.3);
-        background: #fff;
-        color: rgba(0, 0, 0, 0.8);
-        box-shadow: none; }
-    .dashboard .input .button {
-      display: table-cell;
-      vertical-align: middle;
-      white-space: nowrap;
-      padding-top: .78571em;
-      padding-bottom: .78571em;
-      cursor: pointer;
-      display: inline-block;
-      min-height: 1em;
-      outline: 0;
-      border: none;
-      vertical-align: baseline;
-      background-color: #e0e0e0;
-      color: rgba(0, 0, 0, 0.6);
-      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-      margin: 0 .25em 0 0;
-      padding: .78571em 1.5em;
-      text-transform: none;
-      text-shadow: none;
-      font-weight: 700;
-      line-height: 1;
-      font-style: normal;
-      text-align: center;
-      text-decoration: none;
-      background-image: none;
-      border-radius: .2857rem;
-      box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(39, 41, 43, 0.15) inset;
-      -webkit-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-      -webkit-transition: opacity .1s ease, background-color .1s ease, color .1s ease, box-shadow .1s ease, background .1s ease;
-              transition: opacity .1s ease, background-color .1s ease, color .1s ease, box-shadow .1s ease, background .1s ease;
-      will-change: ''; }
-  .dashboard .result {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-  .dashboard .search-results {
-    margin-top: 50px; }
-  .dashboard #gravitar-image {
-    width: 100px;
-    margin-bottom: 10px; }
-  .dashboard .repos {
-    margin-left: 50px; }
-  .dashboard .repo-list {
-    margin-left: 50px; }
-  .dashboard form {
-    display: inherit;
-    width: 100%; }
-
-.left {
-  float: left; }
-
-
-.footer {
-  color: white;
-  height: 100px;
-  background: #444; }
-
-
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0; }
-
-.nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888; }
-
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  -webkit-transition: .3s background-color;
-          transition: .3s background-color; }
-
-.nav a:hover {
-  background-color: #005f5f; }
-
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default; }
-
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
+.media-object.small {
+    width: 50px;
     height: 50px;
-    line-height: 50px;
-    font-size: 1.4em; }
-  .nav li {
-    display: inline-block;
-    margin-right: -4px; } }
+    border-radius: 25px;
+}
 
+.table-view-cell h1 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 30px 0 4px 0;
+    margin: 0;
+}
 
-.base-content {
-  min-height: 100%;
-  margin-bottom: -100px; }
-  .base-content:after {
-    content: "";
-    display: block;
-    height: 100px; }
+input[type=search] {
+    border-radius: 8px;
+}
 
-.base-layout {
-  height: 100%; }
+.card {
+    margin-top:54px;
+}
